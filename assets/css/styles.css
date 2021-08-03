@@ -110,6 +110,60 @@ article:nth-child(4) {
     background-color: var(--second-color);
 }
 
+.card_img {
+    width: 180px;
+    height: auto;
+    padding: 3rem 0;
+    transition: .5s;
+}
+
+.card_name {
+    position: absolute;
+    left: -25%;
+    top: 0;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    width: 3.5rem;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.card_prices {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    transition: .5s;
+}
+
+.card_icon {
+    font-size: 1.5rem;
+    color: var(--dark-color);
+}
+
+.card_icon:hover {
+    color: var(--accent-color);
+}
+
+.card_price {
+    display: block;
+    text-align: center;
+}
+
+.card_price-before {
+    font-size: var(--smaller-font-size);
+    color: var(--accent-color);
+    margin-bottom: .25rem;
+}
+
+.card_price-now {
+    font-size: var(--h3-font-size);
+    font-weight: bold;
+}
+
 /*Move left*/
 
 
